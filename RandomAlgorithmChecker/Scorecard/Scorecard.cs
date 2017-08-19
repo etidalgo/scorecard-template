@@ -13,7 +13,7 @@ namespace RandomAlgorithmChecker.Scorecard
             return key.ToString();
         }
 
-        void PrintCounts()
+        public void PrintCounts()
         {
             var keyColumnWidth = 15;
             var countColumnWidth = 10;

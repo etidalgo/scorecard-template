@@ -10,6 +10,12 @@ namespace RandomAlgorithmChecker
     {
         static void Main(string[] args)
         {
+            var reviewerCounts = new ReviewerCount { 
+                { "alpha", 0 },
+                { "beta", 0}
+            };
+            reviewerCounts.PrintCounts();
+            Console.ReadLine();
         }
     }
 }
