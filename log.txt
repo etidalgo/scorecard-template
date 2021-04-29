@@ -1,0 +1,251 @@
+2021-04-29 14:43:59.084 +12:00 [DBG] Hosting starting
+2021-04-29 14:43:59.105 +12:00 [DBG] Configuration loaded from context base directory: C:\Users\ernest.tidalgo\.dotnet\tools\.store\upgrade-assistant\0.2.222702\upgrade-assistant\0.2.222702\tools\net5.0\any\
+2021-04-29 14:43:59.309 +12:00 [DBG] Found candidate MSBuild instances: C:\Program Files\dotnet\sdk\5.0.202\
+2021-04-29 14:43:59.310 +12:00 [DBG] Found candidate MSBuild instances: C:\Program Files\dotnet\sdk\5.0.201\
+2021-04-29 14:43:59.311 +12:00 [DBG] Found candidate MSBuild instances: C:\Program Files\dotnet\sdk\5.0.104\
+2021-04-29 14:43:59.311 +12:00 [DBG] Found candidate MSBuild instances: C:\Program Files\dotnet\sdk\3.1.408\
+2021-04-29 14:43:59.312 +12:00 [DBG] Found candidate MSBuild instances: C:\Program Files\dotnet\sdk\3.0.100\
+2021-04-29 14:43:59.313 +12:00 [DBG] Found candidate MSBuild instances: C:\Program Files\dotnet\sdk\2.1.815\
+2021-04-29 14:43:59.314 +12:00 [DBG] Found candidate MSBuild instances: C:\Program Files\dotnet\sdk\2.1.617\
+2021-04-29 14:43:59.315 +12:00 [DBG] Found candidate MSBuild instances: C:\Program Files\dotnet\sdk\2.1.523\
+2021-04-29 14:43:59.316 +12:00 [INF] MSBuild registered from C:\Program Files\dotnet\sdk\5.0.202\
+2021-04-29 14:43:59.323 +12:00 [DBG] Registering NuGet credential providers
+2021-04-29 14:43:59.343 +12:00 [INF] Registered 1 extensions:
+	Default extension
+2021-04-29 14:43:59.489 +12:00 [DBG] Found package sources: ["nuget.org [https://api.nuget.org/v3/index.json]","HSO Azure Devops [https://pkgs.dev.azure.com/henryscheinone/_packaging/Internal/nuget/v3/index.json]","Microsoft Visual Studio Offline Packages [C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\]","Local Wavelength [D:\\Dev\\ascend-wavelength-api\\ascend.api.web.app\\bin\\Release\\netstandard2.0\\publish\\]"]
+2021-04-29 14:43:59.529 +12:00 [DBG] Looking for template config files in extension Default extension
+2021-04-29 14:43:59.530 +12:00 [DBG] Found 2 template config files in extension Default extension
+2021-04-29 14:43:59.539 +12:00 [DBG] Using Microsoft.DotNet.UpgradeAssistant.Steps.Backup.BackupStep upgrade step
+2021-04-29 14:43:59.540 +12:00 [DBG] Using Microsoft.DotNet.UpgradeAssistant.Steps.Configuration.ConfigUpdaterStep upgrade step
+2021-04-29 14:43:59.541 +12:00 [DBG] Using Microsoft.DotNet.UpgradeAssistant.Steps.Packages.PackageUpdaterPreTFMStep upgrade step
+2021-04-29 14:43:59.541 +12:00 [DBG] Using Microsoft.DotNet.UpgradeAssistant.Steps.Packages.PackageUpdaterStep upgrade step
+2021-04-29 14:43:59.542 +12:00 [DBG] Using Microsoft.DotNet.UpgradeAssistant.Steps.ProjectFormat.SetTFMStep upgrade step
+2021-04-29 14:43:59.543 +12:00 [DBG] Using Microsoft.DotNet.UpgradeAssistant.Steps.ProjectFormat.TryConvertProjectConverterStep upgrade step
+2021-04-29 14:43:59.544 +12:00 [DBG] Using Microsoft.DotNet.UpgradeAssistant.Steps.Solution.CurrentProjectSelectionStep upgrade step
+2021-04-29 14:43:59.545 +12:00 [DBG] Using Microsoft.DotNet.UpgradeAssistant.Steps.Solution.NextProjectStep upgrade step
+2021-04-29 14:43:59.546 +12:00 [DBG] Using Microsoft.DotNet.UpgradeAssistant.Steps.Solution.FinalizeSolutionStep upgrade step
+2021-04-29 14:43:59.548 +12:00 [DBG] Using Microsoft.DotNet.UpgradeAssistant.Steps.Solution.EntrypointSelectionStep upgrade step
+2021-04-29 14:43:59.549 +12:00 [DBG] Using Microsoft.DotNet.UpgradeAssistant.Steps.Source.SourceUpdaterStep upgrade step
+2021-04-29 14:43:59.550 +12:00 [DBG] Using Microsoft.DotNet.UpgradeAssistant.Steps.Templates.TemplateInserterStep upgrade step
+2021-04-29 14:43:59.551 +12:00 [DBG] Using Microsoft.DotNet.UpgradeAssistant.Steps.Razor.RazorUpdaterStep upgrade step
+2021-04-29 14:43:59.554 +12:00 [DBG] Finished ordering upgrade steps: Microsoft.DotNet.UpgradeAssistant.Steps.Solution.EntrypointSelectionStep, Microsoft.DotNet.UpgradeAssistant.Steps.Solution.CurrentProjectSelectionStep, Microsoft.DotNet.UpgradeAssistant.Steps.Backup.BackupStep, Microsoft.DotNet.UpgradeAssistant.Steps.ProjectFormat.TryConvertProjectConverterStep, Microsoft.DotNet.UpgradeAssistant.Steps.Packages.PackageUpdaterPreTFMStep, Microsoft.DotNet.UpgradeAssistant.Steps.ProjectFormat.SetTFMStep, Microsoft.DotNet.UpgradeAssistant.Steps.Packages.PackageUpdaterStep, Microsoft.DotNet.UpgradeAssistant.Steps.Templates.TemplateInserterStep, Microsoft.DotNet.UpgradeAssistant.Steps.Configuration.ConfigUpdaterStep, Microsoft.DotNet.UpgradeAssistant.Steps.Razor.RazorUpdaterStep, Microsoft.DotNet.UpgradeAssistant.Steps.Source.SourceUpdaterStep, Microsoft.DotNet.UpgradeAssistant.Steps.Solution.NextProjectStep, Microsoft.DotNet.UpgradeAssistant.Steps.Solution.FinalizeSolutionStep
+2021-04-29 14:43:59.561 +12:00 [DBG] Generating context
+2021-04-29 14:43:59.581 +12:00 [DBG] Found Visual Studio 16.9.31129.286 at C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional
+2021-04-29 14:43:59.595 +12:00 [DBG] Initializing context
+2021-04-29 14:43:59.604 +12:00 [DBG] Unable to resolve assembly Microsoft.CodeAnalysis.Features, Version=3.9.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35
+2021-04-29 14:43:59.606 +12:00 [DBG] Unable to resolve assembly Microsoft.CodeAnalysis.CSharp.Features, Version=3.9.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35
+2021-04-29 14:43:59.607 +12:00 [DBG] Unable to resolve assembly Microsoft.CodeAnalysis.VisualBasic.Features, Version=3.9.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35
+2021-04-29 14:43:59.920 +12:00 [DBG] Assembly Microsoft.Build.resources, Version=15.1.0.0, Culture=en-US, PublicKeyToken=b03f5f7f11d50a3a loaded into context Default from C:\Program Files\dotnet\sdk\5.0.202\en\Microsoft.Build.resources.dll
+2021-04-29 14:44:00.214 +12:00 [DBG] Assembly Microsoft.Build.Tasks.Core.resources, Version=15.1.0.0, Culture=en-US, PublicKeyToken=b03f5f7f11d50a3a loaded into context Default from C:\Program Files\dotnet\sdk\5.0.202\en\Microsoft.Build.Tasks.Core.resources.dll
+2021-04-29 14:44:00.300 +12:00 [DBG] ["Failure"] Problem loading file in MSBuild workspace Msbuild failed when processing the file 'D:\Dev\scorecard-template\RandomAlgorithmChecker\RandomAlgorithmChecker.csproj' with message: C:\Program Files\dotnet\sdk\5.0.202\Microsoft.CSharp.CurrentVersion.targets: (135, 9): Could not find rule set file "ManagedMinimumRules.ruleset".
+2021-04-29 14:44:00.644 +12:00 [DBG] Done initializing context
+2021-04-29 14:44:00.677 +12:00 [INF] Initializing upgrade step Select an entrypoint
+2021-04-29 14:44:00.681 +12:00 [INF] Setting entrypoint to only project in solution: D:\Dev\scorecard-template\RandomAlgorithmChecker\RandomAlgorithmChecker.csproj
+2021-04-29 14:44:00.683 +12:00 [DBG] Step Select an entrypoint initialized
+2021-04-29 14:44:00.692 +12:00 [INF] Initializing upgrade step Select project to upgrade
+2021-04-29 14:44:00.707 +12:00 [VRB] Running readiness check CanLoadProjectFile
+2021-04-29 14:44:00.758 +12:00 [VRB] Running readiness check CentralPackageManagementCheck
+2021-04-29 14:44:00.759 +12:00 [VRB] Running readiness check TargetFrameworkCheck
+2021-04-29 14:44:00.770 +12:00 [VRB] Confirmed project D:\Dev\scorecard-template\RandomAlgorithmChecker\RandomAlgorithmChecker.csproj has a valid TFM (net461)
+2021-04-29 14:44:00.772 +12:00 [DBG] Setting only project in solution as the current project: D:\Dev\scorecard-template\RandomAlgorithmChecker\RandomAlgorithmChecker.csproj
+2021-04-29 14:44:00.774 +12:00 [VRB] Running readiness check CanLoadProjectFile
+2021-04-29 14:44:00.774 +12:00 [VRB] Running readiness check CentralPackageManagementCheck
+2021-04-29 14:44:00.775 +12:00 [VRB] Running readiness check TargetFrameworkCheck
+2021-04-29 14:44:00.776 +12:00 [VRB] Confirmed project D:\Dev\scorecard-template\RandomAlgorithmChecker\RandomAlgorithmChecker.csproj has a valid TFM (net461)
+2021-04-29 14:44:00.777 +12:00 [DBG] Step Select project to upgrade initialized
+2021-04-29 14:44:00.778 +12:00 [INF] Initializing upgrade step Back up project
+2021-04-29 14:44:00.781 +12:00 [DBG] Determining backup path
+2021-04-29 14:44:00.782 +12:00 [DBG] Using backup path D:\Dev\scorecard-template.backup\RandomAlgorithmChecker
+2021-04-29 14:44:00.783 +12:00 [DBG] Backup upgrade step initialized as incomplete; will backup to D:\Dev\scorecard-template.backup\RandomAlgorithmChecker
+2021-04-29 14:44:00.784 +12:00 [DBG] Step Back up project initialized
+2021-04-29 14:44:00.785 +12:00 [DBG] Identified upgrade step Microsoft.DotNet.UpgradeAssistant.Steps.Backup.BackupStep as the next step
+2021-04-29 14:44:07.059 +12:00 [INF] Applying upgrade step Back up project
+2021-04-29 14:44:09.133 +12:00 [DBG] Determining backup path
+2021-04-29 14:44:09.134 +12:00 [DBG] Using backup path D:\Dev\scorecard-template.backup\RandomAlgorithmChecker
+2021-04-29 14:44:09.137 +12:00 [INF] Backing up D:\Dev\scorecard-template\RandomAlgorithmChecker to D:\Dev\scorecard-template.backup\RandomAlgorithmChecker
+2021-04-29 14:44:09.148 +12:00 [DBG] Copied D:\Dev\scorecard-template\RandomAlgorithmChecker\App.config to D:\Dev\scorecard-template.backup\RandomAlgorithmChecker\App.config
+2021-04-29 14:44:09.150 +12:00 [DBG] Copied D:\Dev\scorecard-template\RandomAlgorithmChecker\Program.cs to D:\Dev\scorecard-template.backup\RandomAlgorithmChecker\Program.cs
+2021-04-29 14:44:09.152 +12:00 [DBG] Copied D:\Dev\scorecard-template\RandomAlgorithmChecker\RandomAlgorithmChecker.csproj to D:\Dev\scorecard-template.backup\RandomAlgorithmChecker\RandomAlgorithmChecker.csproj
+2021-04-29 14:44:09.154 +12:00 [DBG] Copied D:\Dev\scorecard-template\RandomAlgorithmChecker\RandomAlgorithmChecker.csproj.user to D:\Dev\scorecard-template.backup\RandomAlgorithmChecker\RandomAlgorithmChecker.csproj.user
+2021-04-29 14:44:09.156 +12:00 [DBG] Copied D:\Dev\scorecard-template\RandomAlgorithmChecker\ReviewerCount.cs to D:\Dev\scorecard-template.backup\RandomAlgorithmChecker\ReviewerCount.cs
+2021-04-29 14:44:09.159 +12:00 [DBG] Copied D:\Dev\scorecard-template\RandomAlgorithmChecker\bin\Debug\RandomAlgorithmChecker.exe to D:\Dev\scorecard-template.backup\RandomAlgorithmChecker\bin\Debug\RandomAlgorithmChecker.exe
+2021-04-29 14:44:09.162 +12:00 [DBG] Copied D:\Dev\scorecard-template\RandomAlgorithmChecker\bin\Debug\RandomAlgorithmChecker.exe.config to D:\Dev\scorecard-template.backup\RandomAlgorithmChecker\bin\Debug\RandomAlgorithmChecker.exe.config
+2021-04-29 14:44:09.164 +12:00 [DBG] Copied D:\Dev\scorecard-template\RandomAlgorithmChecker\bin\Debug\RandomAlgorithmChecker.pdb to D:\Dev\scorecard-template.backup\RandomAlgorithmChecker\bin\Debug\RandomAlgorithmChecker.pdb
+2021-04-29 14:44:09.166 +12:00 [DBG] Copied D:\Dev\scorecard-template\RandomAlgorithmChecker\bin\Debug\app.publish\RandomAlgorithmChecker.exe to D:\Dev\scorecard-template.backup\RandomAlgorithmChecker\bin\Debug\app.publish\RandomAlgorithmChecker.exe
+2021-04-29 14:44:09.169 +12:00 [DBG] Copied D:\Dev\scorecard-template\RandomAlgorithmChecker\obj\Debug\.NETFramework,Version=v4.6.1.AssemblyAttributes.cs to D:\Dev\scorecard-template.backup\RandomAlgorithmChecker\obj\Debug\.NETFramework,Version=v4.6.1.AssemblyAttributes.cs
+2021-04-29 14:44:09.171 +12:00 [DBG] Copied D:\Dev\scorecard-template\RandomAlgorithmChecker\obj\Debug\.NETFramework,Version=v4.8.AssemblyAttributes.cs to D:\Dev\scorecard-template.backup\RandomAlgorithmChecker\obj\Debug\.NETFramework,Version=v4.8.AssemblyAttributes.cs
+2021-04-29 14:44:09.173 +12:00 [DBG] Copied D:\Dev\scorecard-template\RandomAlgorithmChecker\obj\Debug\DesignTimeResolveAssemblyReferencesInput.cache to D:\Dev\scorecard-template.backup\RandomAlgorithmChecker\obj\Debug\DesignTimeResolveAssemblyReferencesInput.cache
+2021-04-29 14:44:09.175 +12:00 [DBG] Copied D:\Dev\scorecard-template\RandomAlgorithmChecker\obj\Debug\RandomAlgorithmChecker.csproj.CoreCompileInputs.cache to D:\Dev\scorecard-template.backup\RandomAlgorithmChecker\obj\Debug\RandomAlgorithmChecker.csproj.CoreCompileInputs.cache
+2021-04-29 14:44:09.178 +12:00 [DBG] Copied D:\Dev\scorecard-template\RandomAlgorithmChecker\obj\Debug\RandomAlgorithmChecker.csproj.FileListAbsolute.txt to D:\Dev\scorecard-template.backup\RandomAlgorithmChecker\obj\Debug\RandomAlgorithmChecker.csproj.FileListAbsolute.txt
+2021-04-29 14:44:09.181 +12:00 [DBG] Copied D:\Dev\scorecard-template\RandomAlgorithmChecker\obj\Debug\RandomAlgorithmChecker.csprojAssemblyReference.cache to D:\Dev\scorecard-template.backup\RandomAlgorithmChecker\obj\Debug\RandomAlgorithmChecker.csprojAssemblyReference.cache
+2021-04-29 14:44:09.184 +12:00 [DBG] Copied D:\Dev\scorecard-template\RandomAlgorithmChecker\obj\Debug\RandomAlgorithmChecker.exe to D:\Dev\scorecard-template.backup\RandomAlgorithmChecker\obj\Debug\RandomAlgorithmChecker.exe
+2021-04-29 14:44:09.186 +12:00 [DBG] Copied D:\Dev\scorecard-template\RandomAlgorithmChecker\obj\Debug\RandomAlgorithmChecker.pdb to D:\Dev\scorecard-template.backup\RandomAlgorithmChecker\obj\Debug\RandomAlgorithmChecker.pdb
+2021-04-29 14:44:09.188 +12:00 [DBG] Copied D:\Dev\scorecard-template\RandomAlgorithmChecker\Properties\AssemblyInfo.cs to D:\Dev\scorecard-template.backup\RandomAlgorithmChecker\Properties\AssemblyInfo.cs
+2021-04-29 14:44:09.191 +12:00 [DBG] Copied D:\Dev\scorecard-template\RandomAlgorithmChecker\Scorecard\Scorecard.cs to D:\Dev\scorecard-template.backup\RandomAlgorithmChecker\Scorecard\Scorecard.cs
+2021-04-29 14:44:09.198 +12:00 [INF] Project backed up to D:\Dev\scorecard-template.backup\RandomAlgorithmChecker
+2021-04-29 14:44:09.201 +12:00 [INF] Upgrade step Back up project applied successfully
+2021-04-29 14:44:10.914 +12:00 [INF] Initializing upgrade step Convert project file to SDK style
+2021-04-29 14:44:10.916 +12:00 [DBG] Project D:\Dev\scorecard-template\RandomAlgorithmChecker\RandomAlgorithmChecker.csproj not yet converted
+2021-04-29 14:44:10.917 +12:00 [DBG] Step Convert project file to SDK style initialized
+2021-04-29 14:44:10.918 +12:00 [DBG] Identified upgrade step Microsoft.DotNet.UpgradeAssistant.Steps.ProjectFormat.TryConvertProjectConverterStep as the next step
+2021-04-29 14:44:12.458 +12:00 [INF] Applying upgrade step Convert project file to SDK style
+2021-04-29 14:44:12.461 +12:00 [INF] Converting project file format with try-convert, version 0.7.217901
+2021-04-29 14:44:12.465 +12:00 [VRB] Starting process 'C:\Users\ernest.tidalgo\.dotnet\tools\.store\upgrade-assistant\0.2.222702\upgrade-assistant\0.2.222702\tools\net5.0\any\tools\try-convert.exe --no-backup --force-web-conversion --keep-current-tfms -p "D:\Dev\scorecard-template\RandomAlgorithmChecker\RandomAlgorithmChecker.csproj"'
+2021-04-29 14:44:13.091 +12:00 [INF] [try-convert] D:\Dev\scorecard-template\RandomAlgorithmChecker\RandomAlgorithmChecker.csproj contains an App.config file. App.config is replaced by appsettings.json in .NET Core. You will need to delete App.config and migrate to appsettings.json if it's applicable to your project.
+2021-04-29 14:44:15.539 +12:00 [INF] [try-convert] Conversion complete!
+2021-04-29 14:44:15.864 +12:00 [DBG] ["Failure"] Problem loading file in MSBuild workspace Msbuild failed when processing the file 'D:\Dev\scorecard-template\RandomAlgorithmChecker\RandomAlgorithmChecker.csproj' with message: C:\Program Files\dotnet\sdk\5.0.202\Microsoft.CSharp.CurrentVersion.targets: (135, 9): Could not find rule set file "ManagedMinimumRules.ruleset".
+2021-04-29 14:44:15.875 +12:00 [INF] Project file converted successfully! The project may require additional changes to build successfully against the new .NET target.
+2021-04-29 14:44:15.877 +12:00 [VRB] Starting process 'dotnet restore "D:\Dev\scorecard-template\RandomAlgorithmChecker\RandomAlgorithmChecker.csproj"'
+2021-04-29 14:44:16.608 +12:00 [DBG] [dotnet-restore]   Determining projects to restore...
+2021-04-29 14:44:16.886 +12:00 [DBG] [dotnet-restore]   Restored D:\Dev\scorecard-template\RandomAlgorithmChecker\RandomAlgorithmChecker.csproj (in 135 ms).
+2021-04-29 14:44:17.091 +12:00 [DBG] ["Failure"] Problem loading file in MSBuild workspace Msbuild failed when processing the file 'D:\Dev\scorecard-template\RandomAlgorithmChecker\RandomAlgorithmChecker.csproj' with message: C:\Program Files\dotnet\sdk\5.0.202\Microsoft.CSharp.CurrentVersion.targets: (135, 9): Could not find rule set file "ManagedMinimumRules.ruleset".
+2021-04-29 14:44:17.101 +12:00 [INF] Upgrade step Convert project file to SDK style applied successfully
+2021-04-29 14:44:18.429 +12:00 [INF] Initializing upgrade step Clean up NuGet package references
+2021-04-29 14:44:18.433 +12:00 [VRB] Starting process 'dotnet restore "D:\Dev\scorecard-template\RandomAlgorithmChecker\RandomAlgorithmChecker.csproj"'
+2021-04-29 14:44:19.145 +12:00 [DBG] [dotnet-restore]   Determining projects to restore...
+2021-04-29 14:44:19.311 +12:00 [DBG] [dotnet-restore]   All projects are up-to-date for restore.
+2021-04-29 14:44:19.465 +12:00 [DBG] ["Failure"] Problem loading file in MSBuild workspace Msbuild failed when processing the file 'D:\Dev\scorecard-template\RandomAlgorithmChecker\RandomAlgorithmChecker.csproj' with message: C:\Program Files\dotnet\sdk\5.0.202\Microsoft.CSharp.CurrentVersion.targets: (135, 9): Could not find rule set file "ManagedMinimumRules.ruleset".
+2021-04-29 14:44:19.476 +12:00 [DBG] Analyzing packages with Duplicate reference analyzer
+2021-04-29 14:44:19.554 +12:00 [DBG] Analyzing packages with Transitive reference analyzer
+2021-04-29 14:44:19.558 +12:00 [DBG] Analyzing packages with Package map reference analyzer
+2021-04-29 14:44:19.571 +12:00 [DBG] Looking for package maps in Default extension
+2021-04-29 14:44:19.592 +12:00 [DBG] Loaded 4 package maps from C:\Users\ernest.tidalgo\.dotnet\tools\.store\upgrade-assistant\0.2.222702\upgrade-assistant\0.2.222702\tools\net5.0\any\PackageMaps\AspNetPackageMap.json
+2021-04-29 14:44:19.594 +12:00 [DBG] Loaded 3 package maps from C:\Users\ernest.tidalgo\.dotnet\tools\.store\upgrade-assistant\0.2.222702\upgrade-assistant\0.2.222702\tools\net5.0\any\PackageMaps\AssemblyPackageMaps.json
+2021-04-29 14:44:19.596 +12:00 [DBG] Loaded 7 package maps from C:\Users\ernest.tidalgo\.dotnet\tools\.store\upgrade-assistant\0.2.222702\upgrade-assistant\0.2.222702\tools\net5.0\any\PackageMaps\DefaultPackageMap.json
+2021-04-29 14:44:19.597 +12:00 [DBG] Finished loading package maps from extension Default extension
+2021-04-29 14:44:19.601 +12:00 [DBG] Analyzing packages with Target compatibility reference analyzer
+2021-04-29 14:44:19.612 +12:00 [DBG] NuGet package Microsoft.CSharp, Version=4.7.0 loaded from C:\Users\ernest.tidalgo\.nuget\packages\Microsoft.CSharp\4.7.0\Microsoft.CSharp.4.7.0.nupkg
+2021-04-29 14:44:19.622 +12:00 [DBG] Found target frameworks for package Microsoft.CSharp.4.7.0: [".NETCore,Version=v5.0",".NETCoreApp,Version=v2.0",".NETFramework,Version=v4.5",".NETPortable,Version=v0.0,Profile=Profile259",".NETStandard,Version=v1.3",".NETStandard,Version=v2.0","MonoAndroid,Version=v1.0","MonoTouch,Version=v1.0","UAP,Version=v10.0.16299","Windows,Version=v8.0","WindowsPhone,Version=v8.0","WindowsPhoneApp,Version=v8.1","Xamarin.iOS,Version=v1.0","Xamarin.Mac,Version=v2.0","Xamarin.TVOS,Version=v1.0","Xamarin.WatchOS,Version=v1.0",".NETStandard,Version=v1.0"]
+2021-04-29 14:44:19.630 +12:00 [DBG] Package Microsoft.CSharp, Version=4.7.0 will work on ["net461"]
+2021-04-29 14:44:19.632 +12:00 [DBG] NuGet package System.Data.DataSetExtensions, Version=4.5.0 loaded from C:\Users\ernest.tidalgo\.nuget\packages\System.Data.DataSetExtensions\4.5.0\System.Data.DataSetExtensions.4.5.0.nupkg
+2021-04-29 14:44:19.634 +12:00 [DBG] Found target frameworks for package System.Data.DataSetExtensions.4.5.0: [".NETFramework,Version=v4.5",".NETStandard,Version=v2.0"]
+2021-04-29 14:44:19.635 +12:00 [DBG] Package System.Data.DataSetExtensions, Version=4.5.0 will work on ["net461"]
+2021-04-29 14:44:19.637 +12:00 [DBG] Analyzing packages with Upgrade assistant reference analyzer
+2021-04-29 14:44:19.663 +12:00 [DBG] [NuGet]   CACHE https://api.nuget.org/v3/registration5-gz-semver2/microsoft.dotnet.upgradeassistant.extensions.default.analyzers/index.json
+2021-04-29 14:44:19.708 +12:00 [DBG] [NuGet]   GET https://pkgs.dev.azure.com/henryscheinone/_packaging/4f9b54f0-45da-44bf-b9a7-77c3c0943714/nuget/v3/registrations2-semver2/microsoft.dotnet.upgradeassistant.extensions.default.analyzers/index.json
+2021-04-29 14:44:20.007 +12:00 [VRB] [NuGet] Using C:\Users\ernest.tidalgo\.nuget\plugins\netcore\CredentialProvider.Microsoft\CredentialProvider.Microsoft.dll as a credential provider plugin.
+2021-04-29 14:44:20.009 +12:00 [DBG] Using NuGet credential providers: SecurePluginCredentialProvider_C:\Users\ernest.tidalgo\.nuget\plugins\netcore\CredentialProvider.Microsoft\CredentialProvider.Microsoft.dll
+2021-04-29 14:44:20.808 +12:00 [DBG] [NuGet]   NotFound https://pkgs.dev.azure.com/henryscheinone/_packaging/4f9b54f0-45da-44bf-b9a7-77c3c0943714/nuget/v3/registrations2-semver2/microsoft.dotnet.upgradeassistant.extensions.default.analyzers/index.json 411ms
+2021-04-29 14:44:20.820 +12:00 [INF] Reference to .NET Upgrade Assistant analyzer package (Microsoft.DotNet.UpgradeAssistant.Extensions.Default.Analyzers, version 0.2.222702) needs added
+2021-04-29 14:44:20.822 +12:00 [DBG] Analyzing packages with Windows Compatibility Pack Analyzer
+2021-04-29 14:44:20.824 +12:00 [DBG] Analyzing packages with Newtonsoft.Json reference analyzer
+2021-04-29 14:44:20.828 +12:00 [INF] Packages to be added:
+Microsoft.DotNet.UpgradeAssistant.Extensions.Default.Analyzers, Version=0.2.222702
+2021-04-29 14:44:20.830 +12:00 [DBG] Step Clean up NuGet package references initialized
+2021-04-29 14:44:20.831 +12:00 [DBG] Identified upgrade step Microsoft.DotNet.UpgradeAssistant.Steps.Packages.PackageUpdaterPreTFMStep as the next step
+2021-04-29 14:44:22.139 +12:00 [INF] Applying upgrade step Clean up NuGet package references
+2021-04-29 14:44:22.146 +12:00 [INF] Adding package reference: Microsoft.DotNet.UpgradeAssistant.Extensions.Default.Analyzers, Version=0.2.222702
+2021-04-29 14:44:22.147 +12:00 [DBG] Saving changes to project file
+2021-04-29 14:44:22.289 +12:00 [DBG] ["Failure"] Problem loading file in MSBuild workspace Msbuild failed when processing the file 'D:\Dev\scorecard-template\RandomAlgorithmChecker\RandomAlgorithmChecker.csproj' with message: C:\Program Files\dotnet\sdk\5.0.202\Microsoft.CSharp.CurrentVersion.targets: (135, 9): Could not find rule set file "ManagedMinimumRules.ruleset".
+2021-04-29 14:44:22.300 +12:00 [DBG] Re-running analysis to check whether additional changes are needed
+2021-04-29 14:44:22.301 +12:00 [VRB] Starting process 'dotnet restore "D:\Dev\scorecard-template\RandomAlgorithmChecker\RandomAlgorithmChecker.csproj"'
+2021-04-29 14:44:23.142 +12:00 [DBG] [dotnet-restore]   Determining projects to restore...
+2021-04-29 14:44:23.466 +12:00 [DBG] [dotnet-restore]   Restored D:\Dev\scorecard-template\RandomAlgorithmChecker\RandomAlgorithmChecker.csproj (in 168 ms).
+2021-04-29 14:44:23.640 +12:00 [DBG] ["Failure"] Problem loading file in MSBuild workspace Msbuild failed when processing the file 'D:\Dev\scorecard-template\RandomAlgorithmChecker\RandomAlgorithmChecker.csproj' with message: C:\Program Files\dotnet\sdk\5.0.202\Microsoft.CSharp.CurrentVersion.targets: (135, 9): Could not find rule set file "ManagedMinimumRules.ruleset".
+2021-04-29 14:44:23.656 +12:00 [DBG] Analyzing packages with Duplicate reference analyzer
+2021-04-29 14:44:23.743 +12:00 [DBG] Analyzing packages with Transitive reference analyzer
+2021-04-29 14:44:23.745 +12:00 [DBG] Analyzing packages with Package map reference analyzer
+2021-04-29 14:44:23.746 +12:00 [DBG] Looking for package maps in Default extension
+2021-04-29 14:44:23.748 +12:00 [DBG] Loaded 4 package maps from C:\Users\ernest.tidalgo\.dotnet\tools\.store\upgrade-assistant\0.2.222702\upgrade-assistant\0.2.222702\tools\net5.0\any\PackageMaps\AspNetPackageMap.json
+2021-04-29 14:44:23.749 +12:00 [DBG] Loaded 3 package maps from C:\Users\ernest.tidalgo\.dotnet\tools\.store\upgrade-assistant\0.2.222702\upgrade-assistant\0.2.222702\tools\net5.0\any\PackageMaps\AssemblyPackageMaps.json
+2021-04-29 14:44:23.751 +12:00 [DBG] Loaded 7 package maps from C:\Users\ernest.tidalgo\.dotnet\tools\.store\upgrade-assistant\0.2.222702\upgrade-assistant\0.2.222702\tools\net5.0\any\PackageMaps\DefaultPackageMap.json
+2021-04-29 14:44:23.752 +12:00 [DBG] Finished loading package maps from extension Default extension
+2021-04-29 14:44:23.753 +12:00 [DBG] Analyzing packages with Target compatibility reference analyzer
+2021-04-29 14:44:23.754 +12:00 [DBG] NuGet package Microsoft.CSharp, Version=4.7.0 loaded from C:\Users\ernest.tidalgo\.nuget\packages\Microsoft.CSharp\4.7.0\Microsoft.CSharp.4.7.0.nupkg
+2021-04-29 14:44:23.757 +12:00 [DBG] Found target frameworks for package Microsoft.CSharp.4.7.0: [".NETCore,Version=v5.0",".NETCoreApp,Version=v2.0",".NETFramework,Version=v4.5",".NETPortable,Version=v0.0,Profile=Profile259",".NETStandard,Version=v1.3",".NETStandard,Version=v2.0","MonoAndroid,Version=v1.0","MonoTouch,Version=v1.0","UAP,Version=v10.0.16299","Windows,Version=v8.0","WindowsPhone,Version=v8.0","WindowsPhoneApp,Version=v8.1","Xamarin.iOS,Version=v1.0","Xamarin.Mac,Version=v2.0","Xamarin.TVOS,Version=v1.0","Xamarin.WatchOS,Version=v1.0",".NETStandard,Version=v1.0"]
+2021-04-29 14:44:23.763 +12:00 [DBG] Package Microsoft.CSharp, Version=4.7.0 will work on ["net461"]
+2021-04-29 14:44:23.764 +12:00 [DBG] NuGet package System.Data.DataSetExtensions, Version=4.5.0 loaded from C:\Users\ernest.tidalgo\.nuget\packages\System.Data.DataSetExtensions\4.5.0\System.Data.DataSetExtensions.4.5.0.nupkg
+2021-04-29 14:44:23.766 +12:00 [DBG] Found target frameworks for package System.Data.DataSetExtensions.4.5.0: [".NETFramework,Version=v4.5",".NETStandard,Version=v2.0"]
+2021-04-29 14:44:23.768 +12:00 [DBG] Package System.Data.DataSetExtensions, Version=4.5.0 will work on ["net461"]
+2021-04-29 14:44:23.769 +12:00 [DBG] NuGet package Microsoft.DotNet.UpgradeAssistant.Extensions.Default.Analyzers, Version=0.2.222702 loaded from C:\Users\ernest.tidalgo\.nuget\packages\Microsoft.DotNet.UpgradeAssistant.Extensions.Default.Analyzers\0.2.222702\Microsoft.DotNet.UpgradeAssistant.Extensions.Default.Analyzers.0.2.222702.nupkg
+2021-04-29 14:44:23.771 +12:00 [DBG] Found target frameworks for package Microsoft.DotNet.UpgradeAssistant.Extensions.Default.Analyzers.0.2.222702: ["Any,Version=v0.0"]
+2021-04-29 14:44:23.773 +12:00 [DBG] Package Microsoft.DotNet.UpgradeAssistant.Extensions.Default.Analyzers, Version=0.2.222702 will work on ["net461"]
+2021-04-29 14:44:23.774 +12:00 [DBG] Analyzing packages with Upgrade assistant reference analyzer
+2021-04-29 14:44:23.775 +12:00 [DBG] Reference to .NET Upgrade Assistant analyzer package (Microsoft.DotNet.UpgradeAssistant.Extensions.Default.Analyzers) already exists
+2021-04-29 14:44:23.776 +12:00 [DBG] Analyzing packages with Windows Compatibility Pack Analyzer
+2021-04-29 14:44:23.777 +12:00 [DBG] Analyzing packages with Newtonsoft.Json reference analyzer
+2021-04-29 14:44:23.779 +12:00 [INF] Upgrade step Clean up NuGet package references applied successfully
+2021-04-29 14:44:24.921 +12:00 [INF] Initializing upgrade step Update TFM
+2021-04-29 14:44:24.931 +12:00 [INF] TFM needs updated to net5.0
+2021-04-29 14:44:24.935 +12:00 [DBG] Step Update TFM initialized
+2021-04-29 14:44:24.936 +12:00 [DBG] Identified upgrade step Microsoft.DotNet.UpgradeAssistant.Steps.ProjectFormat.SetTFMStep as the next step
+2021-04-29 14:44:26.467 +12:00 [INF] Applying upgrade step Update TFM
+2021-04-29 14:44:26.478 +12:00 [DBG] Saving changes to project file
+2021-04-29 14:44:26.786 +12:00 [DBG] ["Failure"] Problem loading file in MSBuild workspace Msbuild failed when processing the file 'D:\Dev\scorecard-template\RandomAlgorithmChecker\RandomAlgorithmChecker.csproj' with message: C:\Program Files\dotnet\sdk\5.0.202\Microsoft.CSharp.CurrentVersion.targets: (135, 9): Could not find rule set file "ManagedMinimumRules.ruleset".
+2021-04-29 14:44:26.833 +12:00 [VRB] Starting process 'dotnet restore "D:\Dev\scorecard-template\RandomAlgorithmChecker\RandomAlgorithmChecker.csproj"'
+2021-04-29 14:44:27.656 +12:00 [DBG] [dotnet-restore]   Determining projects to restore...
+2021-04-29 14:44:28.073 +12:00 [DBG] [dotnet-restore]   Restored D:\Dev\scorecard-template\RandomAlgorithmChecker\RandomAlgorithmChecker.csproj (in 166 ms).
+2021-04-29 14:44:28.297 +12:00 [DBG] ["Failure"] Problem loading file in MSBuild workspace Msbuild failed when processing the file 'D:\Dev\scorecard-template\RandomAlgorithmChecker\RandomAlgorithmChecker.csproj' with message: C:\Program Files\dotnet\sdk\5.0.202\Microsoft.CSharp.CurrentVersion.targets: (135, 9): Could not find rule set file "ManagedMinimumRules.ruleset".
+2021-04-29 14:44:28.342 +12:00 [INF] Updated TFM to net5.0
+2021-04-29 14:44:28.343 +12:00 [INF] Upgrade step Update TFM applied successfully
+2021-04-29 14:44:29.163 +12:00 [INF] Initializing upgrade step Update NuGet Packages
+2021-04-29 14:44:29.164 +12:00 [VRB] Starting process 'dotnet restore "D:\Dev\scorecard-template\RandomAlgorithmChecker\RandomAlgorithmChecker.csproj"'
+2021-04-29 14:44:29.964 +12:00 [DBG] [dotnet-restore]   Determining projects to restore...
+2021-04-29 14:44:30.239 +12:00 [DBG] [dotnet-restore]   All projects are up-to-date for restore.
+2021-04-29 14:44:30.459 +12:00 [DBG] ["Failure"] Problem loading file in MSBuild workspace Msbuild failed when processing the file 'D:\Dev\scorecard-template\RandomAlgorithmChecker\RandomAlgorithmChecker.csproj' with message: C:\Program Files\dotnet\sdk\5.0.202\Microsoft.CSharp.CurrentVersion.targets: (135, 9): Could not find rule set file "ManagedMinimumRules.ruleset".
+2021-04-29 14:44:30.505 +12:00 [DBG] Analyzing packages with Duplicate reference analyzer
+2021-04-29 14:44:30.571 +12:00 [DBG] Analyzing packages with Transitive reference analyzer
+2021-04-29 14:44:30.574 +12:00 [DBG] Analyzing packages with Package map reference analyzer
+2021-04-29 14:44:30.575 +12:00 [DBG] Looking for package maps in Default extension
+2021-04-29 14:44:30.577 +12:00 [DBG] Loaded 4 package maps from C:\Users\ernest.tidalgo\.dotnet\tools\.store\upgrade-assistant\0.2.222702\upgrade-assistant\0.2.222702\tools\net5.0\any\PackageMaps\AspNetPackageMap.json
+2021-04-29 14:44:30.579 +12:00 [DBG] Loaded 3 package maps from C:\Users\ernest.tidalgo\.dotnet\tools\.store\upgrade-assistant\0.2.222702\upgrade-assistant\0.2.222702\tools\net5.0\any\PackageMaps\AssemblyPackageMaps.json
+2021-04-29 14:44:30.580 +12:00 [DBG] Loaded 7 package maps from C:\Users\ernest.tidalgo\.dotnet\tools\.store\upgrade-assistant\0.2.222702\upgrade-assistant\0.2.222702\tools\net5.0\any\PackageMaps\DefaultPackageMap.json
+2021-04-29 14:44:30.581 +12:00 [DBG] Finished loading package maps from extension Default extension
+2021-04-29 14:44:30.582 +12:00 [DBG] Analyzing packages with Target compatibility reference analyzer
+2021-04-29 14:44:30.583 +12:00 [DBG] NuGet package Microsoft.CSharp, Version=4.7.0 loaded from C:\Users\ernest.tidalgo\.nuget\packages\Microsoft.CSharp\4.7.0\Microsoft.CSharp.4.7.0.nupkg
+2021-04-29 14:44:30.586 +12:00 [DBG] Found target frameworks for package Microsoft.CSharp.4.7.0: [".NETCore,Version=v5.0",".NETCoreApp,Version=v2.0",".NETFramework,Version=v4.5",".NETPortable,Version=v0.0,Profile=Profile259",".NETStandard,Version=v1.3",".NETStandard,Version=v2.0","MonoAndroid,Version=v1.0","MonoTouch,Version=v1.0","UAP,Version=v10.0.16299","Windows,Version=v8.0","WindowsPhone,Version=v8.0","WindowsPhoneApp,Version=v8.1","Xamarin.iOS,Version=v1.0","Xamarin.Mac,Version=v2.0","Xamarin.TVOS,Version=v1.0","Xamarin.WatchOS,Version=v1.0",".NETStandard,Version=v1.0"]
+2021-04-29 14:44:30.592 +12:00 [DBG] Package Microsoft.CSharp, Version=4.7.0 will work on ["net5.0"]
+2021-04-29 14:44:30.594 +12:00 [DBG] NuGet package System.Data.DataSetExtensions, Version=4.5.0 loaded from C:\Users\ernest.tidalgo\.nuget\packages\System.Data.DataSetExtensions\4.5.0\System.Data.DataSetExtensions.4.5.0.nupkg
+2021-04-29 14:44:30.596 +12:00 [DBG] Found target frameworks for package System.Data.DataSetExtensions.4.5.0: [".NETFramework,Version=v4.5",".NETStandard,Version=v2.0"]
+2021-04-29 14:44:30.597 +12:00 [DBG] Package System.Data.DataSetExtensions, Version=4.5.0 will work on ["net5.0"]
+2021-04-29 14:44:30.599 +12:00 [DBG] NuGet package Microsoft.DotNet.UpgradeAssistant.Extensions.Default.Analyzers, Version=0.2.222702 loaded from C:\Users\ernest.tidalgo\.nuget\packages\Microsoft.DotNet.UpgradeAssistant.Extensions.Default.Analyzers\0.2.222702\Microsoft.DotNet.UpgradeAssistant.Extensions.Default.Analyzers.0.2.222702.nupkg
+2021-04-29 14:44:30.600 +12:00 [DBG] Found target frameworks for package Microsoft.DotNet.UpgradeAssistant.Extensions.Default.Analyzers.0.2.222702: ["Any,Version=v0.0"]
+2021-04-29 14:44:30.602 +12:00 [DBG] Package Microsoft.DotNet.UpgradeAssistant.Extensions.Default.Analyzers, Version=0.2.222702 will work on ["net5.0"]
+2021-04-29 14:44:30.603 +12:00 [DBG] Analyzing packages with Upgrade assistant reference analyzer
+2021-04-29 14:44:30.604 +12:00 [DBG] Reference to .NET Upgrade Assistant analyzer package (Microsoft.DotNet.UpgradeAssistant.Extensions.Default.Analyzers) already exists
+2021-04-29 14:44:30.604 +12:00 [DBG] Analyzing packages with Windows Compatibility Pack Analyzer
+2021-04-29 14:44:30.606 +12:00 [DBG] Analyzing packages with Newtonsoft.Json reference analyzer
+2021-04-29 14:44:30.607 +12:00 [INF] No package updates needed
+2021-04-29 14:44:30.608 +12:00 [DBG] Step Update NuGet Packages initialized
+2021-04-29 14:44:30.609 +12:00 [INF] Initializing upgrade step Add template files
+2021-04-29 14:44:30.642 +12:00 [DBG] Skipping inapplicable template config file Templates\CSharpWebAppTemplates\WebAppTemplates.json
+2021-04-29 14:44:30.645 +12:00 [DBG] Skipping inapplicable template config file Templates\VisualBasicWebAppTemplates\WebAppTemplates.json
+2021-04-29 14:44:30.648 +12:00 [INF] 0 expected template items needed
+2021-04-29 14:44:30.649 +12:00 [DBG] Step Add template files initialized
+2021-04-29 14:44:30.650 +12:00 [INF] Initializing upgrade step Upgrade app config files
+2021-04-29 14:44:30.653 +12:00 [DBG] Loading config files: D:\Dev\scorecard-template\RandomAlgorithmChecker\app.config
+2021-04-29 14:44:30.655 +12:00 [DBG] Loaded 1 config files
+2021-04-29 14:44:30.684 +12:00 [INF] Found 0 app settings for upgrade: 
+2021-04-29 14:44:30.688 +12:00 [DBG] Step Upgrade app config files initialized
+2021-04-29 14:44:30.695 +12:00 [INF] Initializing upgrade step Update source code
+2021-04-29 14:44:30.702 +12:00 [DBG] Opening project D:\Dev\scorecard-template\RandomAlgorithmChecker\RandomAlgorithmChecker.csproj
+2021-04-29 14:44:30.712 +12:00 [VRB] Running upgrade analyzers on RandomAlgorithmChecker
+2021-04-29 14:44:31.958 +12:00 [DBG] Identified 0 fixable diagnostics in project RandomAlgorithmChecker
+2021-04-29 14:44:31.960 +12:00 [DBG] Identified 0 fixable UA0001 diagnostics
+2021-04-29 14:44:31.961 +12:00 [DBG] Identified 0 fixable UA0002 diagnostics
+2021-04-29 14:44:31.962 +12:00 [DBG] Identified 0 fixable UA0003 diagnostics
+2021-04-29 14:44:31.963 +12:00 [DBG] Identified 0 fixable UA0004 diagnostics
+2021-04-29 14:44:31.964 +12:00 [DBG] Identified 0 fixable UA0005 diagnostics
+2021-04-29 14:44:31.965 +12:00 [DBG] Identified 0 fixable UA0006 diagnostics
+2021-04-29 14:44:31.966 +12:00 [DBG] Identified 0 fixable UA0007 diagnostics
+2021-04-29 14:44:31.967 +12:00 [DBG] Identified 0 fixable UA0008 diagnostics
+2021-04-29 14:44:31.968 +12:00 [DBG] Identified 0 fixable UA0009 diagnostics
+2021-04-29 14:44:31.969 +12:00 [DBG] Identified 0 fixable UA0010 diagnostics
+2021-04-29 14:44:31.970 +12:00 [DBG] Identified 0 fixable UA0012 diagnostics
+2021-04-29 14:44:31.971 +12:00 [DBG] Step Update source code initialized
+2021-04-29 14:44:31.977 +12:00 [INF] Initializing upgrade step Move to next project
+2021-04-29 14:44:31.978 +12:00 [DBG] Step Move to next project initialized
+2021-04-29 14:44:31.978 +12:00 [DBG] Identified upgrade step Microsoft.DotNet.UpgradeAssistant.Steps.Solution.NextProjectStep as the next step
+2021-04-29 14:44:33.209 +12:00 [INF] Applying upgrade step Move to next project
+2021-04-29 14:44:33.211 +12:00 [INF] Upgrade step Move to next project applied successfully
+2021-04-29 14:44:38.149 +12:00 [INF] Initializing upgrade step Finalize upgrade
+2021-04-29 14:44:38.150 +12:00 [DBG] Step Finalize upgrade initialized
+2021-04-29 14:44:38.151 +12:00 [DBG] Identified upgrade step Microsoft.DotNet.UpgradeAssistant.Steps.Solution.FinalizeSolutionStep as the next step
+2021-04-29 14:44:39.429 +12:00 [INF] Applying upgrade step Finalize upgrade
+2021-04-29 14:44:39.430 +12:00 [INF] Upgrade step Finalize upgrade applied successfully
+2021-04-29 14:44:40.725 +12:00 [DBG] No applicable upgrade steps found
+2021-04-29 14:44:40.726 +12:00 [INF] Upgrade has completed. Please review any changes.
+2021-04-29 14:44:40.728 +12:00 [INF] Saving upgrade progress file at D:\Dev\scorecard-template\.upgrade-assistant
+2021-04-29 14:44:40.750 +12:00 [DBG] Hosting started
+2021-04-29 14:44:40.755 +12:00 [DBG] Hosting stopping
+2021-04-29 14:44:40.756 +12:00 [DBG] Hosting stopped
